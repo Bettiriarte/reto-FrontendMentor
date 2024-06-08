@@ -1,17 +1,18 @@
-import IconFylo from "../icons/IconFylo";
+import IconFylo from "./icons/IconFylo";
+import Menu from "./Menu"
 
 const Header = () => {
   return (
-    <header>
-      <div>
-        <button>
+    <header className="bg-[#1C2231]">
+      <div className=" flex justify-between mx-auto p-4 px-4">
+        <div className="">
           <IconFylo />
-        </button>
+        </div>
 
-        <div>
-          <button>Features</button>
-          <button>Team</button>
-          <button>Sign In</button>
+        <div className="font-sans text-white font-light gap-4 inline-flex">
+          <button> dark mode </button>
+        <Menu/>
+
         </div>
 
       </div>

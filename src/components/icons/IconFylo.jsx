@@ -1,4 +1,4 @@
-const IconFylo = (...props) => {
+const IconFylo = ({...props}) => {
   return (
     <svg
     {...props}

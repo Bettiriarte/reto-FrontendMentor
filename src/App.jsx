@@ -1,12 +1,19 @@
 import Header from "./components/Header"
+import WelcomeSection from "./components/WelcomeSection"
+import SectionTabs from "./components/SectionTabs"
 
-const App = () => { 
+const App = () => {
   return (
-<div>
-  
-  <Header/>
+    <div className="bg-[#1C2231]">
 
-</div>
+      <Header />
+
+      <main className="bg-gradient-to-t from-[#435171] to-[#1C2231]">
+        <WelcomeSection />
+        <SectionTabs />
+      </main>
+
+    </div>
   )
- }
- export default App
+}
+export default App
